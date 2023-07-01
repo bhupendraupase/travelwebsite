@@ -1,0 +1,1493 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION BARS */
+
+/* FIRST NAVBAR */
+.first-nav {
+    width: 100%;
+    height: 3rem;
+    background-color: #004274;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #a2bed4;
+
+}
+
+.nav-text {
+    width: 33rem;
+    height: 2rem;
+    padding-top: 6px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 21rem;
+    height: 2rem;
+    list-style: none;
+}
+
+.links a {
+    color: #a2bed4;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #00aeef;
+}
+
+.icon-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25rem;
+    height: 2rem;
+}
+
+.links-btn {
+    list-style: none;
+    text-decoration: none;
+    width: 5rem;
+    text-align: center;
+    height: 2rem;
+    padding-top: 8px;
+}
+
+.links-btn ul {
+    list-style: none;
+}
+
+.links-btn a:hover {
+    color: #00aeef;
+}
+
+.email i {
+    padding-right: 10px;
+}
+
+.links-btn a {
+    color: #a2bed4;
+}
+
+.min-menu {
+   visibility: hidden;
+}
+
+/* SECOND NAVBAR */
+.second-nav {
+    width: 100%;
+    height: 6rem;
+    background-color: #ffffff;
+    color: #756668;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 10rem;
+    height: 4rem;
+    font-size: 25px;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #00aeef;
+}
+
+
+.second-nav ul {
+    width: 35rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+.second-nav ul a {
+    text-decoration: none;
+}
+
+.second-nav ul a:hover {
+    color: #00aeef;
+    border-bottom: 2px solid #04afef;
+    padding-bottom: 10px;
+}
+
+.phone {
+    width: 20rem;
+    height: 4rem;
+    font-size: 40px;
+}
+
+.phone a {
+    text-decoration: none;
+}
+
+.phone a:hover {
+    color: #00aeef;
+}
+
+.phone i {
+    padding: 10px 15px 0 14px;
+}
+
+
+/* SLIDER MENU */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container img { 
+    width: 100%;
+} 
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 72px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 100px;
+    width: 45%;
+    margin-left: 135px;
+    font-weight: 600;
+}
+
+.text h3 {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+
+.text-child2 {
+    position: absolute;
+    top: 80px;
+    left: 150vh;
+    width: 16rem;
+    height: 206px;
+}
+
+.child2-1 {
+    padding-left: 16px;
+    background: #91adb4;
+    height: 50px;
+    padding-top: 17px;
+    font-size: 15px;
+}
+
+.child2-1 span {
+    padding-top: 17px;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.child2-1 i {
+    color: #fff;
+}
+
+.child2-2 {
+    width: 100%;
+    background: #7c99a2;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.child2-2 i {
+    color: #fff;
+    font-size: 55px;
+}
+
+.child2-2 span {
+    padding-left: 10px;
+    font-size: 38px;
+    color: #fff;
+}
+
+.child2-3 {
+    width: 100%;
+    background: #ffffff;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child2-3-1 {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 14px 15px;
+    font-size: 27px;
+    color: blueviolet;
+}
+
+.child2-3-2 {
+    background-color: orange;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 14px 15px;
+    font-size: 27px;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dots {
+    text-align: center;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+
+
+/* ABOUT SECTIONS */
+
+.about {
+    background: #ffffff;
+    width: 100%;
+    height: 65rem;
+}
+
+.about-description {
+    width: 100%;
+    height: 13rem;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.about-description h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.about-sections {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.about-sections div {
+    width: 25%;
+    height: 20rem;
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    padding-top: 40px;
+    color: #2e3031;
+}
+
+.about-sections i {
+    font-size: 50px;
+    color: #04afef;
+}
+
+.about-sections h2 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.about-sections p {
+    margin-top: 25px;
+
+}
+
+.about-sections div:hover {
+    box-shadow: 0px 0px 18px -5px grey;
+}
+
+
+/* PACKAGES SECTIONS */
+
+.Package {
+    width: 100%;
+    background: #f1f4f6;
+    height: 50rem;
+}
+
+.Package-description {
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+}
+
+.Package-description h2 {
+    font-size: 30px;
+    padding-top: 78px;
+}
+
+.Package-description p {
+    padding-top: 10px;
+}
+
+.Package-sections {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div {
+    width: 24%;
+    height: 33rem;
+    background: #ffffff;
+    margin-right: 25px;
+    transition: all 0.5s ease;
+}
+
+.main-div:hover {
+    margin: 40px 50px;
+    transform: scale(1.2);
+}
+
+.Package-sections img {
+    width: 100%;
+    height: 16rem;
+}
+
+.pic {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 20px;
+    left: 203px;
+}
+
+
+.child i {
+    font-size: 20px;
+    color: white;
+    padding-right: 15px;
+}
+
+.child2 {
+    position: absolute;
+    top: 80%;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100px;
+    height: 48px;
+    background: linear-gradient(45deg, black, transparent);
+}
+
+.child2 i {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.Discount {
+    width: 80px;
+    background: yellowgreen;
+    height: 75px;
+    border-radius: 50%;
+    padding: 15px 5px 5px 10px;
+    color: white;
+    position: absolute;
+    top: 218px;
+    left: 252px;
+}
+
+.Discount h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.Discount p {
+    font-size: 8px;
+    text-align: center;
+}
+
+.heading {
+    width: 100%;
+    height: 2rem;
+    font-size: 20px;
+    padding: 5px 30px;
+    font-weight: 600;
+    margin-top: 33px;
+}
+
+.heading a {
+    text-decoration: none;
+}
+
+.stars {
+    color: gold;
+    margin: 5px 30px;
+}
+
+.para {
+    margin: 30px 30px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5.4rem;
+}
+
+.prices {
+    display: inline-flex;
+    width: 165px;
+    height: 45px;
+}
+
+.prices del {
+    font-size: 20px;
+    color: #a6b0b3;
+    padding-left: 30px;
+    padding-top: 14px;
+}
+
+.prices p {
+    font-size: 25px;
+    margin: 10px 5px;
+    color: #00aeef;
+    font-weight: 600;
+}
+
+.more {
+    width: 100px;
+    background: #04afef;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+
+
+.more a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pri {
+    padding-left: 25px;
+}
+
+#stars-i {
+    color: gray;
+}
+
+
+/* TRAVEL DESTINATION */
+
+
+.travel {
+    width: 100%;
+    height: 45rem;
+}
+
+.travel-description {
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.travel-description h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.travel-sections {
+    display: flex;
+    width: 100%;
+    height: 35rem;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.travel-sections-1 {
+    width: 25%;
+    height: 17rem;
+    position: relative;
+}
+
+.travel-sections-2 {
+    width: 25%;
+    height: 17rem;
+    position: relative;
+}
+
+.travel-sections-3 {
+    width: 25%;
+    height: 17rem;
+    position: relative;
+}
+
+.travel-sections-4 {
+    width: 25%;
+    height: 17rem;
+    position: relative;
+}
+
+.travel-sections-5 {
+    width: 25%;
+    height: 17rem;
+    position: relative;
+}
+
+.travel-sections-6 {
+    width: 25%;
+    height: 17rem;
+    position: relative;
+}
+
+.travel-sections-7 {
+    width: 25%;
+    height: 17rem;
+    position: relative;
+}
+
+.travel-sections-8 {
+    width: 25%;
+    height: 17rem;
+    position: relative;
+}
+
+.travel-sections img {
+    width: 100%;
+    height: 100%;
+}
+
+.temp {
+    position: absolute;
+    top: 15px;
+    left: 260px;
+    color: #fff;
+}
+
+.temp p {
+    font-size: 8px;
+    padding-bottom: 3px;
+}
+
+.temp h3 {
+    font-size: 20px;
+}
+
+.city {
+    color: #fff;
+    top: 232px;
+    position: absolute;
+    left: 35px;
+}
+
+.travel-sections-1-des {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(45deg, black, transparent);
+    height: 100%;
+    padding-top: 60px;
+    opacity: 0;
+}
+
+.travel-sections-1-des h2 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.travel-sections-1-des p {
+    padding-left: 28px;
+    padding-bottom: 15px;
+}
+
+.travel-sections-1-des h3 {
+    padding-left: 27px;
+    font-size: 7px;
+    padding-bottom: 15px;
+}
+
+.travel-sections-1-des h4 {
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.travel-sections-1-des:hover {
+    opacity: 1;
+}
+
+
+/* SPECIAL OFFERS */
+
+.offers {
+    width: 100%;
+    height: 61rem;
+    background: #ffffff;
+}
+
+.offers-description {
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    padding: 45px 80px;
+}
+
+.offers-description h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+
+.offers-sections {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.offers-sections-1,
+.offers-sections-2,
+.offers-sections-3,
+.offers-sections-4,
+.offers-sections-5,
+.offers-sections-6 {
+    width: 39%;
+    margin: 10px 10px;
+    height: 15rem;
+    background: #ffffff;
+    display: flex;
+    box-shadow: 0 0 40px -25px grey
+}
+
+.offers-sections-1 img,
+.offers-sections-2 img,
+.offers-sections-3 img,
+.offers-sections-4 img,
+.offers-sections-5 img,
+.offers-sections-6 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.offers-sections-1 h2,
+.offers-sections-2 h2,
+.offers-sections-3 h2,
+.offers-sections-4 h2,
+.offers-sections-5 h2,
+.offers-sections-6 h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.offers-sections-1 h2:hover,
+.offers-sections-2 h2:hover,
+.offers-sections-3 h2:hover,
+.offers-sections-4 h2:hover,
+.offers-sections-5 h2:hover,
+.offers-sections-6 h2:hover {
+    color: #00aeef;
+}
+
+
+
+.offers-sections-1-stars,
+.offers-sections-2-stars,
+.offers-sections-3-stars,
+.offers-sections-4-stars,
+.offers-sections-5-stars,
+.offers-sections-6-stars {
+    color: gold;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.offers-sections-1 p,
+.offers-sections-2 p,
+.offers-sections-3 p,
+.offers-sections-4 p,
+.offers-sections-5 p,
+.offers-sections-6 p {
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.offers-sections-1-icons,
+.offers-sections-2-icons,
+.offers-sections-3-icons,
+.offers-sections-4-icons,
+.offers-sections-5-icons,
+.offers-sections-6-icons {
+    font-size: 25px;
+    margin-bottom: 13px;
+    color: #a6b0b3;
+    display: flex;
+}
+
+.tooltip1,
+.tooltip2,
+.tooltip3,
+.tooltip4 {
+    position: relative;
+    padding-left: 25px;
+}
+
+.tooltip1 .tooltiptext1,
+.tooltip2 .tooltiptext2,
+.tooltip3 .tooltiptext3,
+.tooltip4 .tooltiptext4 {
+    visibility: hidden;
+    width: 50px;
+    font-size: 14px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: 16px;
+}
+
+.tooltip1:hover .tooltiptext1,
+.tooltip2:hover .tooltiptext2,
+.tooltip3:hover .tooltiptext3,
+.tooltip4:hover .tooltiptext4 {
+    visibility: visible;
+}
+
+/* FOOTER */
+
+.main-footer {
+    background: #2d363f;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-1 {
+    width: 20%;
+    height: 15rem;
+}
+
+.footer-2 {
+    width: 20%;
+    height: 15rem;
+}
+
+.footer-2 h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.tex {
+    width: 100%;
+    height: 10rem;
+}
+
+.tex1,
+.tex2,
+.tex3,
+.tex4,
+.tex5 {
+    margin-bottom: 10px;
+}
+
+.tex1 a,
+.tex2 a,
+.tex3 a,
+.tex4 a,
+.tex5 a {
+    text-decoration: none;
+    color: #6f889c;
+}
+
+
+.tex1 a:hover,
+.tex2 a:hover,
+.tex3 a:hover,
+.tex4 a:hover,
+.tex5 a:hover {
+    color: #fff;
+}
+
+.footer-3 {
+    width: 20%;
+    height: 15rem;
+}
+
+.footer-1 h2 {
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-1 p {
+    padding-bottom: 25px;
+    font-size: 10px;
+    color: #6f889c;
+}
+
+.footer-1 i {
+    padding-right: 15px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-1 a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-3 h2 {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 25px
+}
+
+.footer-3-tex {
+    display: grid;
+    align-content: space-between;
+    width: 100%;
+    height: 50%;
+}
+
+.footer-3-tex a {
+    text-decoration: none;
+    color: #6f889c;
+}
+
+.footer-3-tex a:hover {
+    color: #fff;
+}
+
+.offers-sections-1-icons i,
+.offers-sections-2-icons i,
+.offers-sections-3-icons i,
+.offers-sections-4-icons i,
+.offers-sections-5-icons i,
+.offers-sections-6-icons i {
+    padding-left: 5px;
+}
+
+.offers-sections-1-button,
+.offers-sections-2-button,
+.offers-sections-3-button,
+.offers-sections-4-button,
+.offers-sections-5-button,
+.offers-sections-6-button {
+    background-color: #04afef;
+    width: 80px;
+    height: 35px;
+    margin-left: 217px;
+    margin-top: 32px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.offers-sections-1-button a,
+.offers-sections-2-button a,
+.offers-sections-3-button a,
+.offers-sections-4-button a,
+.offers-sections-5-button a,
+.offers-sections-6-button a {
+    text-decoration: none;
+}
+
+.offers-sections-1-button:hover,
+.offers-sections-2-button:hover,
+.offers-sections-3-button:hover,
+.offers-sections-4-button:hover,
+.offers-sections-5-button:hover,
+.offers-sections-6-button:hover {
+    background-color: yellowgreen;
+}
+
+
+.posit {
+    position: relative;
+}
+
+.posit-child1 {
+    position: absolute;
+    background: yellowgreen;
+    top: 0;
+    left: 186px;
+    width: 110px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.posit-child1-a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.posit-child1-b {
+    font-size: 20px;
+    color: #fff;
+}
+
+.posit-child2 {
+    position: absolute;
+    width: 60px;
+    background: linear-gradient(45deg, black, transparent);
+    height: 45px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.posit-child2-a {
+    font-size: 25px;
+    padding: 5px 5px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* first nav */
+    
+    .nav-text {
+        width: 20rem;
+        text-align: center;
+    }
+
+    /* second navbar */
+    .second-nav {
+        height: 4rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 7rem;
+        height: 1rem;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .second-nav ul {
+        width: 20rem;
+        height: 2rem;
+        font-size: 15px;
+    }
+
+    .phone {
+        width: 10rem;
+        font-size: 18px;
+        height: 2rem;
+        text-align: center;
+    }
+
+    /* slider menu */
+    .text {
+        font-size: 20px;
+        top: 33px;
+        width: 30%;
+        margin-left: 80px;
+        padding: 10px 5px;
+    }
+
+    .text h3 {
+        font-size: 10px;
+    }
+
+    .text-child2 {
+        left: 35rem;
+        width: 10rem;
+        top: 40px;
+    }
+
+    .child2-1 {
+        height: 35px;
+        padding-top: 13px;
+        font-size: 5px;
+    }
+
+    .child2-1 span {
+        padding-top: 13px;
+        font-size: 9px;
+        padding-left: 5px;
+    }
+
+    .child2-2 {
+        width: 100%;
+        background: #7c99a2;
+        height: 40px;
+        padding: 13px 30px;
+    }
+
+    .child2-2 i {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .child2-2 span {
+        padding-left: 10px;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .child2-3 {
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .child2-3-1 {
+        padding: 5px 5px;
+        font-size: 15px;
+    }
+
+    .child2-3-2 {
+        text-align: center;
+        padding: 5px 5px;
+        font-size: 15px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    /* ABOUT SECTION */
+    .about {
+        height: 57rem;
+    }
+
+    .about-description {
+        height: 5rem;
+        padding-top: 20px;
+    }
+
+    .about-description h2 {
+        font-size: 20px;
+    }
+
+    .about-sections {
+        height: 50rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+
+    .about-sections div {
+        width: 44%;
+        height: 15rem;
+        margin: 5px 5px 5px 5px;
+    }
+
+    .about-sections i {
+        font-size: 25px;
+    }
+
+    .about-sections h2 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .about-sections p {
+        margin-top: 15px;
+    }
+
+    /* PACKAGES SECTIONS */
+    .Package-description {
+        height: 6rem;
+    }
+
+    .Package-description h2 {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .Package-sections {
+        height: 30rem;
+        background-color: darkgreen;
+
+    }
+
+    .main-div {
+        width: 30%;
+        margin-right: 15px;
+        height: 26.5rem;
+    }
+
+    .Package-sections img {
+        height: 10rem;
+    }
+
+    .child {
+        left: 125px;
+        top: 10px;
+    }
+
+    .child i {
+        font-size: 13px;
+        padding-right: 8px;
+    }
+
+    .child2 {
+        top: 76%;
+        left: 15px;
+        width: 80px;
+        height: 35px;
+    }
+
+    .child2 i {
+        font-size: 15px;
+        padding-right: 5px;
+    }
+
+    .Discount {
+        width: 60px;
+        height: 55px;
+        left: 150px;
+        top: 130px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .Discount h3 {
+        font-size: 15px;
+    }
+
+    .Discount p {
+        font-size: 7px;
+    }
+
+    .heading {
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 4px 20px;
+    }
+
+    .stars {
+        margin: 4px 20px;
+    }
+
+    .para {
+        margin: 15px 20px;
+    }
+
+    .price {
+        height: 2rem;
+    }
+
+    .prices {
+        width: 125px;
+        height: 30px;
+    }
+
+    .prices del {
+        font-size: 10px;
+        padding-left: 20px;
+        padding-top: 11px;
+    }
+
+    .prices p {
+        font-size: 20px;
+        margin: 5px 8px;
+    }
+
+    .more {
+        width: 90px;
+        margin-top: 102px;
+    }
+
+    .pri {
+        padding-left: 20px;
+    }
+
+    /* TRAVEL DESTINATION */
+
+    .travel {
+        height: 82rem;
+    }
+
+    .travel-description {
+        height: 6rem;
+        padding-top: 25px;
+    }
+
+    .travel-description h3 {
+        font-size: 20px;
+    }
+
+    .travel-sections {
+        height: 75rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .travel-sections-1,
+    .travel-sections-2,
+    .travel-sections-3,
+    .travel-sections-4,
+    .travel-sections-5,
+    .travel-sections-6,
+    .travel-sections-7,
+    .travel-sections-8 {
+        width: 40%;
+        margin: 10px 10px;
+    }
+
+    .temp {
+        top: 10px;
+        left: 250px;
+    }
+
+    .temp p {
+        font-size: 7px;
+    }
+
+    .temp h3 {
+        font-size: 15px;
+    }
+
+    /* Special offers */
+
+    .offers {
+        height: 109rem;
+    }
+
+    .offers-description {
+        height: 5rem;
+        padding: 15px 20px;
+    }
+
+    .offers-description h2 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .offers-sections {
+        height: 103rem;
+    }
+
+    .offers-sections-1,
+    .offers-sections-2,
+    .offers-sections-3,
+    .offers-sections-4,
+    .offers-sections-5,
+    .offers-sections-6 {
+        width: 90%;
+    }
+
+    .offers-sections-1-button,
+    .offers-sections-2-button,
+    .offers-sections-3-button,
+    .offers-sections-4-button,
+    .offers-sections-5-button,
+    .offers-sections-6-button {
+        margin-left: 300px;
+        margin-top: 33px;
+    }
+
+    .posit-child1 {
+        left: 201px;
+    }
+
+    /* footer */
+
+    .main-footer {
+        height: 18rem;
+    }
+
+    .footer-1 i {
+        font-size: 15px;
+        padding-right: 9px;
+
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width:567px) {
+    .first-nav {
+      visibility: hidden;
+    }
+     
+    .min-menu {
+        visibility: visible;
+        padding: 10px 10px;
+        font-size: 30px;
+        background-color: #00aeef;
+    }
+
+    .nav-text {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .links {
+        width: 100%;
+    }
+
+    .icon-nav {
+        width: 100%;
+        display: grid;
+    }
+
+    .prev,
+    .next {
+        font-size: 10px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0,0,0.3);
+    }
+     
+    .text {
+        font-size: 15px;
+        top: 25px;
+        margin-left: 30px;
+        font-weight: 100;
+        padding: 0 0;
+    }
+
+    .text h3 {
+        font-size: 10px;
+    }
+
+    .text-child2 {
+        left: 2rem;
+        top: 10px;
+        width: 5rem;
+        height: 50px;
+    }
+
+    .child2-1 {
+        height: auto;
+        font-size: 5px;
+    }
+}
